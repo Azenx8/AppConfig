@@ -1,0 +1,29 @@
+AppConfig.authorizedKeys.addAll(
+    listOf("key0", "key1")
+) Android AppConfig
+Copyright (c) 2020 Peter Rosenberg (https://github.com/PRosenb).
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License. AppConfig.authorizedApps.add(
+    AuthorizedApp(
+        applicationId = "AUTHORIZED_APPLICATION_ID",
+        signature =
+        "SHA_256_HASH_SIGNATURE"
+    )
+) implementation 'ch.pete.appconfig:appconfig:0.1.0' 2020-05-24 10:25:37.703 14607-14654/ch.pete.appconfig.exampleapp E/AppConfig: Access denied
+    To allow add (Kotlin):
+    AppConfig.authorizedApps.add(
+      AuthorizedApp(
+        applicationId = "ch.pete.appconfigapp",
+        signature = "C7:0D:90:86:6D:3F:D2:3D:4C:7C:45:64:75:B0:93:97:00:5A:1F:FD:37:FE:8B:B1:61:8C:CF:EB:80:27:19:EC"
+      )
+    )
